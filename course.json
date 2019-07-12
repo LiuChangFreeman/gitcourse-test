@@ -1,0 +1,227 @@
+{
+  "version": "1",
+  "title": "Git版本控制",
+  "author": "GitCourse Players",
+  "description": "Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。",
+  "preload": "scripts/auth.js",
+  "scenarios":[
+    {
+      "title": "提交文件",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何初始化一个git仓库，并提交文件到git仓库",
+      "steps":[
+        {
+          "title": "git init",
+          "text": "scenario/1.1-git_init.md",
+          "preload": "scripts/preload.js",
+          "check": "check/1.1-check.sh"
+        },
+        {
+           "title": "git status",
+           "text": "scenario/1.2-git_status.md"
+        },
+        {
+          "title": "git add",
+          "text": "scenario/1.3-git_add.md",
+          "check": "check/1.3-check.sh"
+        },
+        {
+          "title": "git commit",
+          "text": "scenario/1.4-git_commit.md",
+          "check": "check/1.4-check.sh"
+        },
+        {
+          "title": "git ignore",
+          "text": "scenario/1.5-git_ignore.md",
+          "check": "check/1.5-check.sh"
+        }
+      ]
+    },
+    {
+      "title": "提交更改",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何比较并提交你的更改",
+      "steps":[
+        {
+          "title": "git status",
+          "text": "scenario/2.1-git_status.md",
+          "check": "check/2.1-check.sh"
+        },
+        {
+          "title": "git diff",
+           "text": "scenario/2.2-git_diff.md"
+        },
+        {
+          "title": "git add",
+          "text": "scenario/2.3-git_add.md",
+          "check": "check/2.3-check.sh"
+        },
+        {
+          "title": "staged differences",
+          "text": "scenario/2.4-staged_differences.md"
+        },
+        {
+          "title": "git log",
+          "text": "scenario/2.5-git_log.md"
+        },
+        {
+          "title": "git show",
+          "text": "scenario/2.6-git_show.md",
+          "check": "check/2.6-check.sh"
+        }
+      ]
+    },
+    {
+      "title": "远程协作",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何添加远程仓库，并推送/拉取更改，从而进行远程协作",
+       "steps":[
+         {
+           "title": "git remote",
+           "text": "scenario/3.1-git_remote.md",
+           "check": "check/3.1-check.sh"
+         },
+         {
+           "title": "git push",
+           "text": "scenario/3.2-git_push.md"
+         },
+         {
+           "title": "git pull",
+           "text": "scenario/3.3-git_pull.md"
+         },
+         {
+           "title": "git log",
+           "text": "scenario/3.4-git_log.md"
+         },
+         {
+           "title": "git fetch",
+           "text": "scenario/3.5-git_fetch.md"
+         }
+       ]
+    },
+    {
+      "title": "撤销更改",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何撤销你的更改",
+       "steps":[
+         {
+            "title": "git checkout",
+            "text": "scenario/4.1-git_checkout.md",
+            "check": "check/4.1-check.sh"
+         },
+         {
+           "title": "git reset",
+           "text": "scenario/4.2-git_reset.md",
+           "check": "check/4.2-check.sh"
+         },
+         {
+           "title": "git reset --hard",
+           "text": "scenario/4.3-git_reset_hard.md"
+         },
+         {
+           "title": "git revert",
+           "text": "scenario/4.4-git_revert.md"
+         },
+         {
+           "title": "git revert",
+           "text": "scenario/4.5-git_revert.md"
+         }
+       ]
+    },
+    {
+      "title": "修复合并冲突",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习当发生冲突(conflicts)时如何解决冲突",
+      "steps":[
+        {
+          "title": "git merge",
+          "text": "scenario/5.1-git_merge.md"
+        },
+        {
+          "title": "查看冲突",
+          "text": "scenario/5.2-查看冲突.md"
+        },
+        {
+          "title": "解决冲突",
+          "text": "scenario/5.3-解决冲突.md"
+        },
+        {
+           "title": "非快进合并",
+          "text": "scenario/5.4-非快进合并.md"
+        },
+        {
+          "title": "git rebase",
+          "text": "scenario/5.5-git_rebase.md"
+        },
+        {
+           "title": "Rebasing Pull Request",
+          "text": "scenario/5.6-git_pull时使用rebase.md"
+        }
+      ]
+    },
+    {
+      "title": "使用分支",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习怎么进行分支管理",
+      "steps":[
+        {
+          "title": "git branch",
+          "text": "scenario/6.1-git_branch.md",
+          "check": "check/6.1-check.sh"
+        },
+        {
+          "title": "列举分支",
+          "text": "scenario/6.2-列举分支.md",
+          "check": "check/6.2-check.sh"
+        },
+        {
+          "title": "合并到master分支",
+          "text": "scenario/6.3-合并到master分支.md",
+          "check": "check/6.3-check.sh"
+        },
+        {
+          "title": "推送分支",
+          "text": "scenario/6.4-推送分支.md",
+          "check": "check/6.4-check.sh"
+        },
+        {
+          "title": "清理分支",
+          "text": "scenario/6.5-清理分支.md",
+          "check": "check/6.5-check.sh"
+        }
+      ]
+    },
+    {
+      "title": "发现错误",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习查看 commit 历史",
+      "steps":[
+        {
+          "title": "比较两个提交间的差异",
+          "text": "scenario/7.1-比较两个提交间的差异.md",
+          "check": "check/7.1-check.sh"
+        },
+        {
+          "title": "git log",
+          "text": "scenario/7.2-git_log.md",
+          "check": "check/7.2-check.sh"
+        },
+        {
+          "title": "git_bisect",
+          "text": "scenario/7.3-git_bisect.md",
+          "check": "check/7.3-check.sh"
+        },
+        {
+          "title": "git blame",
+          "text": "scenario/7.4-git_blame.md",
+          "check": "check/7.4-check.sh"
+        },
+        {
+          "title": "Complete",
+          "text": "scenario/7.5-complete.md",
+          "preload": "scripts/complete.js"
+        }
+      ]
+    }
+  ]
+}
