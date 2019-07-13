@@ -10,8 +10,8 @@
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "description": "学习如何初始化一个git仓库，并提交文件到git仓库",
       "shell":"/bin/bash",
-      "docker_endpoint":"http://47.102.128.18:20375/v1.24",
-      "kfcoding_auto_delete":false,
+      "docker_endpoint":"http://docker.kfcoding.com:20375/v1.24",
+      "kfcoding_auto_delete":true,
       "hidden_ports":["5678/tcp"],
       "steps":[
         {
