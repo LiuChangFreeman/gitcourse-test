@@ -9,7 +9,10 @@
       "title": "提交文件",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "description": "学习如何初始化一个git仓库，并提交文件到git仓库",
-      "shell":"/bin/bash",
+      "shell":"/bin/sh",
+      "docker_endpoint":null,
+      "kfcoding_auto_delete":false,
+      "hidden_ports":["5678/tcp"],
       "steps":[
         {
           "title": "git init",
