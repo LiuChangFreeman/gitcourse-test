@@ -45,6 +45,10 @@
       "title": "提交更改",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "description": "学习如何比较并提交你的更改",
+      "shell":"/bin/sh",
+      "docker_endpoint":"http://docker.kfcoding.com:20375/v1.24",
+      "kfcoding_auto_delete":true,
+      "hidden_ports":[],
       "steps":[
         {
           "title": "git status",
