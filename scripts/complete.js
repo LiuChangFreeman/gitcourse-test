@@ -10,7 +10,7 @@ try {
       Authorization: getCookie('token')
     },
     method: 'POST',
-    body: JSON.stringify({repo: 'https://github.com/openx-lab/git.git'})
+    body: JSON.stringify({repo: 'https://github.com/openx-lab/go-study-guide.git'})
   }).then(resp => resp.json())
     .then(data => {
       return fetch('http://api.kfcoding.com/api/practice/trains/competition/end', {
@@ -25,4 +25,3 @@ try {
 } catch (e) {
   console.log(e)
 }
-

@@ -1,233 +1,250 @@
 {
   "version": "1",
-  "title": "Git版本控制",
-  "author": "GitCourse Players",
-  "description": "Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。",
+  "title": "Gitcourse Guide",
+  "author": "Freeman",
+  "description": "欢迎来到Gitcourse课程制作指南。本指南涵盖了Gircourse的基本重要特性，主要包括：项目构成、实训环境、课件制作、流程控制。",
   "preload": "scripts/auth.js",
-  "scenarios":[
+  "scenarios": [
     {
-      "title": "提交文件",
+      "title": "Gitcourse基础知识",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习如何初始化一个git仓库，并提交文件到git仓库",
-      "shell":"/bin/bash",
-      "docker_endpoint":"http://docker.kfcoding.com:20375/v1.24",
-      "kfcoding_auto_delete":true,
-      "hidden_ports":["5678/tcp"],
-      "steps":[
+      "description": "一开始，将学习关于gitcourse项目文件目录结构的所有基础内容。",
+      "steps": [
         {
-          "title": "git init",
-          "text": "scenario/1.1-git_init.md",
+          "title": "项目概览",
+          "text": "scenario/ep1/1.md"
+        },
+        {
+          "title": "发布课程",
+          "text": "scenario/ep1/2.md"
+        },
+        {
+          "title": "访问课程",
+          "text": "scenario/ep1/3.md"
+        },
+        {
+          "title": "课件制作",
+          "text": "scenario/ep1/2.md"
+        }
+      ]
+    },
+    {
+      "title": "Golang 方法",
+      "pre": "scripts/pre.sh",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:nb-golang",
+      "steps": [
+        {
+          "title": "方法",
+          "text": "scenario/method/1.md",
           "preload": "scripts/preload.js",
-          "check": "check/1.1-check.sh"
+          "program": "bg.sh",
+          "extraTab": "[domain]:[:8888]/notebooks/method/1.ipynb"
         },
         {
-           "title": "git status",
-           "text": "scenario/1.2-git_status.md"
+          "title": "方法即函数",
+          "text": "scenario/method/2.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/2.ipynb"
         },
         {
-          "title": "git add",
-          "text": "scenario/1.3-git_add.md",
-          "check": "check/1.3-check.sh"
+          "title": "方法（续）",
+          "text": "scenario/method/3.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/3.ipynb"
         },
         {
-          "title": "git commit",
-          "text": "scenario/1.4-git_commit.md",
-          "check": "check/1.4-check.sh"
+          "title": "指针接收者",
+          "text": "scenario/method/4.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/4.ipynb"
         },
         {
-          "title": "git ignore",
-          "text": "scenario/1.5-git_ignore.md",
-          "check": "check/1.5-check.sh"
+          "title": "指针与函数",
+          "text": "scenario/method/5.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/5.ipynb"
+        },
+        {
+          "title": "方法与指针重定向",
+          "text": "scenario/method/6.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/6.ipynb"
+        },
+        {
+          "title": "方法与指针重定向（续）",
+          "text": "scenario/method/7.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/7.ipynb"
+        },
+        {
+          "title": "选择值或指针作为接收者",
+          "text": "scenario/method/8.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/8.ipynb"
+        },
+        {
+          "title": "接口",
+          "text": "scenario/method/9.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/9.ipynb"
+        },
+        {
+          "title": "接口与隐式实现",
+          "text": "scenario/method/10.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/10.ipynb"
+        },
+        {
+          "title": "接口值",
+          "text": "scenario/method/11.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/11.ipynb"
+        },
+        {
+          "title": "底层值为 nil 的接口值",
+          "text": "scenario/method/12.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/12.ipynb"
+        },
+        {
+          "title": "nil 接口值",
+          "text": "scenario/method/13.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/13.ipynb"
+        },
+        {
+          "title": "空接口",
+          "text": "scenario/method/14.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/14.ipynb"
+        },
+        {
+          "title": "类型断言",
+          "text": "scenario/method/15.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/15.ipynb"
+        },
+        {
+          "title": "类型选择",
+          "text": "scenario/method/16.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/16.ipynb"
+        },
+        {
+          "title": "Stringer",
+          "text": "scenario/method/17.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/17.ipynb"
+        },
+        {
+          "title": "练习：Stringer",
+          "text": "scenario/method/18.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/18.ipynb"
+        },
+        {
+          "title": "错误",
+          "text": "scenario/method/19.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/19.ipynb"
+        },
+        {
+          "title": "练习：错误",
+          "text": "scenario/method/20.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/20.ipynb"
+        },
+        {
+          "title": "Reader",
+          "text": "scenario/method/21.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/21.ipynb"
+        },
+        {
+          "title": "练习：Reader",
+          "text": "scenario/method/22.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/22.ipynb"
+        },
+        {
+          "title": "练习：rot13Reader",
+          "text": "scenario/method/23.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/23.ipynb"
+        },
+        {
+          "title": "图像",
+          "text": "scenario/method/24.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/method/24.ipynb"
         }
       ]
     },
     {
-      "title": "提交更改",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习如何比较并提交你的更改",
-      "shell":"/bin/sh",
-      "docker_endpoint":"http://docker.kfcoding.com:20375/v1.24",
-      "kfcoding_auto_delete":true,
-      "hidden_ports":[],
-      "steps":[
+      "title": "Golang Routine",
+      "pre": "scripts/pre.sh",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:nb-golang",
+      "steps": [
         {
-          "title": "git status",
-          "text": "scenario/2.1-git_status.md",
-          "check": "check/2.1-check.sh"
+          "title": "Go 程",
+          "text": "scenario/goroutine/1.md",
+          "preload": "scripts/preload.js",
+          "program": "bg.sh",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/1.ipynb"
         },
         {
-          "title": "git diff",
-           "text": "scenario/2.2-git_diff.md"
+          "title": "信道",
+          "text": "scenario/goroutine/2.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/2.ipynb"
         },
         {
-          "title": "git add",
-          "text": "scenario/2.3-git_add.md",
-          "check": "check/2.3-check.sh"
+          "title": "带缓冲的信道",
+          "text": "scenario/goroutine/3.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/3.ipynb"
         },
         {
-          "title": "staged differences",
-          "text": "scenario/2.4-staged_differences.md"
+          "title": "range 和 close",
+          "text": "scenario/goroutine/4.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/4.ipynb"
         },
         {
-          "title": "git log",
-          "text": "scenario/2.5-git_log.md"
+          "title": "select 语句",
+          "text": "scenario/goroutine/5.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/5.ipynb"
         },
         {
-          "title": "git show",
-          "text": "scenario/2.6-git_show.md",
-          "check": "check/2.6-check.sh"
-        }
-      ]
-    },
-    {
-      "title": "远程协作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习如何添加远程仓库，并推送/拉取更改，从而进行远程协作",
-       "steps":[
-         {
-           "title": "git remote",
-           "text": "scenario/3.1-git_remote.md",
-           "check": "check/3.1-check.sh"
-         },
-         {
-           "title": "git push",
-           "text": "scenario/3.2-git_push.md"
-         },
-         {
-           "title": "git pull",
-           "text": "scenario/3.3-git_pull.md"
-         },
-         {
-           "title": "git log",
-           "text": "scenario/3.4-git_log.md"
-         },
-         {
-           "title": "git fetch",
-           "text": "scenario/3.5-git_fetch.md"
-         }
-       ]
-    },
-    {
-      "title": "撤销更改",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习如何撤销你的更改",
-       "steps":[
-         {
-            "title": "git checkout",
-            "text": "scenario/4.1-git_checkout.md",
-            "check": "check/4.1-check.sh"
-         },
-         {
-           "title": "git reset",
-           "text": "scenario/4.2-git_reset.md",
-           "check": "check/4.2-check.sh"
-         },
-         {
-           "title": "git reset --hard",
-           "text": "scenario/4.3-git_reset_hard.md"
-         },
-         {
-           "title": "git revert",
-           "text": "scenario/4.4-git_revert.md"
-         },
-         {
-           "title": "git revert",
-           "text": "scenario/4.5-git_revert.md"
-         }
-       ]
-    },
-    {
-      "title": "修复合并冲突",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习当发生冲突(conflicts)时如何解决冲突",
-      "steps":[
-        {
-          "title": "git merge",
-          "text": "scenario/5.1-git_merge.md"
+          "title": "默认选择",
+          "text": "scenario/goroutine/6.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/6.ipynb"
         },
         {
-          "title": "查看冲突",
-          "text": "scenario/5.2-查看冲突.md"
+          "title": "练习：等价二叉查找树",
+          "text": "scenario/goroutine/7.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/7.ipynb"
         },
         {
-          "title": "解决冲突",
-          "text": "scenario/5.3-解决冲突.md"
+          "title": "练习：等价二叉查找树",
+          "text": "scenario/goroutine/8.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/8.ipynb"
         },
         {
-           "title": "非快进合并",
-          "text": "scenario/5.4-非快进合并.md"
+          "title": "sync.Mutex",
+          "text": "scenario/goroutine/9.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/9.ipynb"
         },
         {
-          "title": "git rebase",
-          "text": "scenario/5.5-git_rebase.md"
-        },
-        {
-           "title": "Rebasing Pull Request",
-          "text": "scenario/5.6-git_pull时使用rebase.md"
-        }
-      ]
-    },
-    {
-      "title": "使用分支",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习怎么进行分支管理",
-      "steps":[
-        {
-          "title": "git branch",
-          "text": "scenario/6.1-git_branch.md",
-          "check": "check/6.1-check.sh"
-        },
-        {
-          "title": "列举分支",
-          "text": "scenario/6.2-列举分支.md",
-          "check": "check/6.2-check.sh"
-        },
-        {
-          "title": "合并到master分支",
-          "text": "scenario/6.3-合并到master分支.md",
-          "check": "check/6.3-check.sh"
-        },
-        {
-          "title": "推送分支",
-          "text": "scenario/6.4-推送分支.md",
-          "check": "check/6.4-check.sh"
-        },
-        {
-          "title": "清理分支",
-          "text": "scenario/6.5-清理分支.md",
-          "check": "check/6.5-check.sh"
-        }
-      ]
-    },
-    {
-      "title": "发现错误",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
-      "description": "学习查看 commit 历史",
-      "steps":[
-        {
-          "title": "比较两个提交间的差异",
-          "text": "scenario/7.1-比较两个提交间的差异.md",
-          "check": "check/7.1-check.sh"
-        },
-        {
-          "title": "git log",
-          "text": "scenario/7.2-git_log.md",
-          "check": "check/7.2-check.sh"
-        },
-        {
-          "title": "git_bisect",
-          "text": "scenario/7.3-git_bisect.md",
-          "check": "check/7.3-check.sh"
-        },
-        {
-          "title": "git blame",
-          "text": "scenario/7.4-git_blame.md",
-          "check": "check/7.4-check.sh"
-        },
-        {
-          "title": "Complete",
-          "text": "scenario/7.5-complete.md",
-          "preload": "scripts/complete.js"
+          "title": "练习：Web 爬虫",
+          "text": "scenario/goroutine/10.md",
+          "preload": "scripts/preload.js",
+          "extraTab": "[domain]:[:8888]/notebooks/goroutine/10.ipynb"
         }
       ]
     }
