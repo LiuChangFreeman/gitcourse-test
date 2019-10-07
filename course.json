@@ -7,7 +7,7 @@
   "scenarios": [
     {
       "title": "Gitcourse基础知识",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/git:oauth",
       "description": "一开始，将学习关于gitcourse项目文件目录结构的所有基础内容。",
       "steps": [
         {
