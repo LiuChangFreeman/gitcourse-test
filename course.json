@@ -21,8 +21,27 @@
         },
         {
           "title": "访问课程",
-          "text": "scenario/ep1/3.md",
-          "extraTab": "https://github.com/gitcourse-sample/gitcourse-test"
+          "text": "scenario/ep1/3.md"
+        }
+      ]
+    },
+    {
+      "title": "Gitcourse容器制作工具",
+      "shell":"/bin/bash",
+      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:v0",
+      "description": "接下来，将学习如何制作gitcourse容器镜像。",
+      "steps": [
+        {
+          "title": "选择课程基础镜像",
+          "text": "scenario/ep1/1.md"
+        },
+        {
+          "title": "修改容器",
+          "text": "scenario/ep1/2.md"
+        },
+        {
+          "title": "提交发布",
+          "text": "scenario/ep1/3.md"
         }
       ]
     }
