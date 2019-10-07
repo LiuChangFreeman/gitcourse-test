@@ -22,11 +22,7 @@
         {
           "title": "访问课程",
           "text": "scenario/ep1/3.md",
-          "extraTab": "http://gitcourse.kfcoding.com/#https://github.com/gitcourse-sample/gitcourse-test"
-        },
-        {
-          "title": "其他模式",
-          "text": "scenario/ep1/4.md"
+          "extraTab": "https://github.com/gitcourse-sample/gitcourse-test"
         }
       ]
     }
