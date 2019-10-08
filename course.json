@@ -34,17 +34,17 @@
         {
           "title": "进入制作模式",
           "text": "scenario/ep2/1.md",
-          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true#https://github.com/gitcourse-sample/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true&compact=true#https://github.com/gitcourse-sample/gitcourse-test"
         },
         {
           "title": "修改容器",
           "text": "scenario/ep2/2.md",
-          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true#https://github.com/gitcourse-sample/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true&compact=true#https://github.com/gitcourse-sample/gitcourse-test"
         },
         {
           "title": "提交发布",
           "text": "scenario/ep2/3.md",
-          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true#https://github.com/gitcourse-sample/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true&compact=true#https://github.com/gitcourse-sample/gitcourse-test"
         }
       ]
     },
