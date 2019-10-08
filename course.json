@@ -32,16 +32,34 @@
       "description": "接下来，将学习如何制作gitcourse容器镜像。",
       "steps": [
         {
-          "title": "选择课程基础镜像",
-          "text": "scenario/ep1/1.md"
+          "title": "进入制作模式",
+          "text": "scenario/ep2/1.md",
+          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0/?edit=true&hide_tutorial=true#https://github.com/gitcourse-sample/gitcourse-test"
         },
         {
           "title": "修改容器",
-          "text": "scenario/ep1/2.md"
+          "text": "scenario/ep2/2.md"
         },
         {
           "title": "提交发布",
-          "text": "scenario/ep1/3.md"
+          "text": "scenario/ep2/3.md"
+        }
+      ]
+    },
+    {
+      "title": "Gitcours图文课件制作",
+      "shell":"/bin/bash",
+      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:v0",
+      "description": "接下来，将学习如何制作gitcourse图文课件。",
+      "steps": [
+        {
+          "title": "Markdown语法及规范",
+          "text": "scenario/ep3/1.md",
+          "extraTab":"https://blog.richasy.cn/document/acrmd/grammar.html"
+        },
+        {
+          "title": "图片插入",
+          "text": "scenario/ep3/1.md"
         }
       ]
     }
