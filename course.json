@@ -74,17 +74,17 @@
         {
           "title": "course.json基本字段",
           "text": "scenario/ep4/1.md",
-          "extraTab":"http://gitcourse.kfcoding.com/#https://github.com/LiuChangFreeman/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
         },
         {
           "title": "scenario基础字段",
           "text": "scenario/ep4/2.md",
-          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0#https://github.com/LiuChangFreeman/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/scenarios/0?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
         },
         {
           "title": "step基础字段",
           "text": "scenario/ep4/3.md",
-          "extraTab":"http://gitcourse.kfcoding.com/#https://github.com/LiuChangFreeman/gitcourse-test"
+          "extraTab":"http://gitcourse.kfcoding.com/?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
         }
       ]
     }
