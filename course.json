@@ -8,7 +8,7 @@
     {
       "title": "Gitcourse基础知识",
       "shell":"/bin/bash",
-      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:test",
+      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:v1",
       "description": "一开始，将学习关于gitcourse项目文件目录结构的所有基础内容。",
       "steps": [
         {
