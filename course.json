@@ -66,7 +66,7 @@
       ]
     },
     {
-      "title": "Gitcours配置文件详解:基础部分",
+      "title": "Gitcours配置文件:基础部分",
       "shell":"/bin/bash",
       "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:test",
       "description": "接下来，将学习如何填写gitcourse的配置文件。首先是基础部分",
@@ -80,6 +80,29 @@
           "title": "scenario基础字段",
           "text": "scenario/ep4/2.md",
           "extraTab":"http://gitcourse.kfcoding.com/scenarios/0?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
+        },
+        {
+          "title": "step基础字段",
+          "text": "scenario/ep4/3.md",
+          "extraTab":"http://gitcourse.kfcoding.com/?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
+        }
+      ]
+    },
+    {
+      "title": "Gitcours配置文件:进阶",
+      "shell":"/bin/bash",
+      "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:test",
+      "description": "接下来，将通过一个例子学习使用gitcourse配置文件的高阶内容。",
+      "steps": [
+        {
+          "title": "配置容器内部服务",
+          "text": "scenario/ep5/1.md"
+        },
+        {
+          "title": "scenario基础字段",
+          "text": "scenario/ep5/2.md",
+          "extraTab": "[domain]:[:8888]/temp"
+
         },
         {
           "title": "step基础字段",
