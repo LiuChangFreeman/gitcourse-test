@@ -95,17 +95,18 @@
       "description": "接下来，将通过一个例子学习使用gitcourse配置文件的高阶内容。",
       "steps": [
         {
-          "title": "配置容器内部服务",
-          "text": "scenario/ep5/1.md"
+          "title": "配置容器服务",
+          "program":"scripts/init.sh",
+          "text": "scenario/ep5/1.md",
+          "check":"check/check.sh"
         },
         {
-          "title": "scenario基础字段",
+          "title": "访问容器服务",
           "text": "scenario/ep5/2.md",
-          "extraTab": "[domain]:[:8888]/temp"
-
+          "extraTab": "[domain]:[:8888]/index.html"
         },
         {
-          "title": "step基础字段",
+          "title": "外部网页",
           "text": "scenario/ep4/3.md",
           "extraTab":"http://gitcourse.kfcoding.com/?compact=true#https://github.com/LiuChangFreeman/gitcourse-test"
         }
