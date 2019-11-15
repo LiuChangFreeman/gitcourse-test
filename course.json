@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "Gitcours图文课件制作",
+      "title": "Gitcourse图文课件制作",
       "shell":"/bin/bash",
       "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:test",
       "description": "接下来，将学习如何制作gitcourse图文课件。",
