@@ -5,7 +5,6 @@ function getCookie(name) {
 }
 
 if (document.location.host == 'gitcourse.kfcoding.com') {
-
   fetch('http://api.kfcoding.com/api/basic/users/current', {
     headers: {
       'Content-Type': 'application/json',
