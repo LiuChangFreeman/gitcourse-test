@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "Gitcours配置文件:基础部分",
+      "title": "Gitcourse配置文件:基础部分",
       "shell":"/bin/bash",
       "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:v1",
       "description": "接下来，将学习如何填写gitcourse的配置文件。首先是基础部分",
