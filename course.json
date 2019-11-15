@@ -93,7 +93,7 @@
       ]
     },
     {
-      "title": "Gitcours配置文件:进阶",
+      "title": "Gitcourse配置文件:进阶",
       "shell":"/bin/bash",
       "environment": "registry.cn-hangzhou.aliyuncs.com/envs/gitcourse:v1",
       "description": "接下来，将通过一个例子学习使用gitcourse配置文件的高阶内容。",
